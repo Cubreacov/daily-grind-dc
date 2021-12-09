@@ -136,6 +136,18 @@
 		switch(today){
 			case 0:
 				today = "Sunday";
+
+				coffee = {
+				coffee:"Cold Brew",
+				alt:"This is a pic of a Cold Brew",
+				description: `I love Cold Brew,It's very refreshing!`,
+				pic: "cold-brew.jpg",
+				color:"green",
+				weekday:"Sunday",
+			
+				
+
+			}
 			break;
 			case 1:
 				today = "Monday";
@@ -145,7 +157,7 @@
 				alt:"This is a pic of a Bubble Tea",
 				description: `I love Bubble Tea,It's bubbly!`,
 				pic: "bubble-tea.jpg",
-				color:"orange",
+				color:"purple",
 				weekday:"Monday",
 			
 				
@@ -187,12 +199,39 @@
 			break;
 			case 4:
 				today = "Thursday";
+
+				coffee = {
+				coffee:"Drip",
+				alt:"This is a pic of a Drip",
+				description: `I love drip,It's very good!`,
+				pic: "drip.jpg",
+				color:"black",
+				weekday:"Thursday",
+				}
 			break;
 			case 5:
 				today = "Friday";
+
+				coffee = {
+				coffee:"Frappuccino",
+				alt:"This is a pic of a Frappuccino",
+				description: `I love Frappuccino,It's very sweet!`,
+				pic: "frappaccino.jpg",
+				color:"brown",
+				weekday:"Friday",
+				}
 			break;
 			case 6:
 				today = "Saturday";
+
+				coffee = {
+				coffee:"Mocha",
+				alt:"This is a pic of a Mocha",
+				description: `I love Mocha,It's very refreshing!`,
+				pic: "mocha.jpg",
+				color:"pink",
+				weekday:"Sunday",
+				}
 			break;
 		}
 		document.getElementById("coffeeTarget").innerHTML = coffeeTemplate(coffee);
